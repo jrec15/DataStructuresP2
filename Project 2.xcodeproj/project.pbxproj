@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D4FD5F64198700530008536E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD5F63198700530008536E /* main.cpp */; };
 		D4FD5F66198700530008536E /* Project_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4FD5F65198700530008536E /* Project_2.1 */; };
+		D4FD5F6E1987017E0008536E /* RBNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD5F6C1987017E0008536E /* RBNode.cpp */; };
+		D4FD5F71198706750008536E /* RBTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD5F6F198706750008536E /* RBTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		D4FD5F60198700530008536E /* Project 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD5F63198700530008536E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D4FD5F65198700530008536E /* Project_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Project_2.1; sourceTree = "<group>"; };
+		D4FD5F6C1987017E0008536E /* RBNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RBNode.cpp; sourceTree = "<group>"; };
+		D4FD5F6D1987017E0008536E /* RBNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBNode.h; sourceTree = "<group>"; };
+		D4FD5F6F198706750008536E /* RBTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RBTree.cpp; sourceTree = "<group>"; };
+		D4FD5F70198706750008536E /* RBTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		D4FD5F57198700530008536E = {
 			isa = PBXGroup;
 			children = (
+				D4FD5F6C1987017E0008536E /* RBNode.cpp */,
+				D4FD5F6D1987017E0008536E /* RBNode.h */,
+				D4FD5F6F198706750008536E /* RBTree.cpp */,
+				D4FD5F70198706750008536E /* RBTree.h */,
 				D4FD5F62198700530008536E /* Project 2 */,
 				D4FD5F61198700530008536E /* Products */,
 			);
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FD5F71198706750008536E /* RBTree.cpp in Sources */,
 				D4FD5F64198700530008536E /* main.cpp in Sources */,
+				D4FD5F6E1987017E0008536E /* RBNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
